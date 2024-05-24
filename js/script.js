@@ -5,13 +5,14 @@ const btnMobile = document.querySelector("#btnmobile");
 
 //FUNÇÃO MENU
 function Menu(){
+  console.log("oi")
   //DECLARANDO A VARIAVEL E PEGANDO O  ID
-  const navBar = document.querySelector(".nav");
+  const navBar = document.querySelector(".nav")
   //RETORNA UMA LISTA ATIVA
   navBar.classList.toggle("active");
 }
 //EVENTO QUE AO CLICAR CHAMA FUNÇÃO MENU
-btnMobile.addEventListener("clique", Menu);
+btnMobile.addEventListener("clique", Menu());
 
 
 /*criando o slideShow */

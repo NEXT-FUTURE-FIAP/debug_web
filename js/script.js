@@ -17,11 +17,11 @@ btnMobile.addEventListener("clique", Menu);
 /*criando o slideShow */
 
 //declarando o objeto de imagens em um array
-let imagens = ['../img/Carro1.png', '../img/Carro2.png', '../img/Carro3.png'];
+let imagens = ['img/Carro1.png', 'img/Carro2.png', 'img/Carro3.png','img/Carro4.png'];
 //declarando a posição de inicio
 let Index = 0;
 //declarando o tempo que as imagens vão passar em milesegundos
-let time = 3000;
+let time = 1000;
 
 //criando a função chamanda slideshow
 
@@ -34,7 +34,7 @@ function slideShow() {
 
   //se a posição da imagem for imagem e a quantidade de imagens no array
 
-  if (Index == imagens.lenght) {
+  if (Index === imagens.length) {
     Index = 0;
   }
   //setTimeout é uma função que executa o tempo, nesse caso vai chamar função e aplicar o time

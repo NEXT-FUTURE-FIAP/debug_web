@@ -10,7 +10,7 @@ function Menu(){
     navBar.classList.toggle("active");
 }
 //EVENTO QUE AO CLICAR CHAMA FUNÇÃO MENU
-btnMobile.addEventListener("clique", Menu);
+btnMobile.addEventListener("clique", Menu());
 
 
 /*criando o slideShow */
